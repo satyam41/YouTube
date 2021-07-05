@@ -1,11 +1,11 @@
 import random
 
-n = random.randint(1,50)
+n = random.randint(1,100)
 
 chance = 1
 try:
     while chance <= 5:
-        guess = int(input("Guess number between 1-50: "))
+        guess = int(input("Guess number between 1-100: "))
         if guess < n:
             print("You guess smaller number, Guess greater number.")
         elif guess > n:
